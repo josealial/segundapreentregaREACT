@@ -1,0 +1,63 @@
+/* .counter{
+    display: flex;
+    justify-content: center;
+    background-color: #f8247d;
+    padding: 100px;
+    margin: 300px;
+    border-radius: 15px;
+}
+
+.control{
+    align-items: center;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 5px;
+    border: 20px;
+
+}
+
+.number{
+    align-items: center;
+
+
+} */
+/* Estilo para el contador */
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para los botones de incremento y decremento */
+  .button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el número de cantidad */
+  .number {
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+  
+  /* Estilo para el botón "Agregar al Carrito" */
+  .button-add {
+    background-color: #28a745;
+  }
+  
+  /* Estilo para el botón "Agregar al Carrito" cuando está deshabilitado */
+  .button-add[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

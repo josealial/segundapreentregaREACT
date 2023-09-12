@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.CartWidget {
+  display: inline-block;
+  background-color: #f39c12;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+
+.ItemListContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+.Item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ItemDetailContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+.ItemDetail {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ItemCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Cart {
+  flex: 1;
+  padding: 10px;
+}
+
+
+body {
+  background: linear-gradient(to right,
+      rgb(3, 3, 3),
+      white,
+      rgb(0, 0, 0));
+      background-color: rgba(0, 0, 0, 0.7);
+
+}
+
